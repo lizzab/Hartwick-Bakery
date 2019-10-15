@@ -57,11 +57,12 @@ def start():
 start()
 
 
-print(f"""         Months         Cookies    Candy
-         Month 1        {Cookies[0]}        {Candy[0]}
-         Month 2        {Cookies[1]}        {Candy[1]}
-         Month 3        {Cookies[2]}        {Candy[2]}
-         Month 4        {Cookies[3]}        {Candy[3]}
-         Month 5        {Cookies[4]}        {Candy[4]}
-         Month 6        {Cookies[5]}        {Candy[5]}
+print(f"""          Months        Cookies      Candy
+        ------------------------------------
+        |Month 1|        |{Cookies[0]}|        |{Candy[0]}|
+        |Month 2|        |{Cookies[2]}|        |{Candy[2]}|
+        |Month 4|        |{Cookies[3]}|        |{Candy[3]}|
+        |Month 5|        |{Cookies[4]}|        |{Candy[4]}|
+        |Month 6|        |{Cookies[5]}|        |{Candy[5]}|
+        ------------------------------------
 """)
