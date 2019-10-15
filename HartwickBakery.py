@@ -17,16 +17,12 @@ def candy_input():
 
 
 def average_sales_cookies():
-    sum = Cookies[0] + Cookies[1] + Cookies[2] + Cookies[3] + Cookies[4] + Cookies[5]
-    num = 6
-    av = sum / num
+    av = (Cookies[0] + Cookies[1] + Cookies[2] + Cookies[3] + Cookies[4] + Cookies[5]) / 6
     return av
 
 
 def average_sales_candy():
-    sum = Candy[0] + Candy[1] + Candy[2] + Candy[3] + Candy[4] + Candy[5]
-    num = 6
-    av = sum / num
+    av = (Candy[0] + Candy[1] + Candy[2] + Candy[3] + Candy[4] + Candy[5]) / 6
     return av
 
 
@@ -59,3 +55,13 @@ def start():
     which_more_popular()
 
 start()
+
+
+print(f"""         Months         Cookies    Candy
+         Month 1        {Cookies[0]}        {Candy[0]}
+         Month 2        {Cookies[1]}        {Candy[1]}
+         Month 3        {Cookies[2]}        {Candy[2]}
+         Month 4        {Cookies[3]}        {Candy[3]}
+         Month 5        {Cookies[4]}        {Candy[4]}
+         Month 6        {Cookies[5]}        {Candy[5]}
+""")
