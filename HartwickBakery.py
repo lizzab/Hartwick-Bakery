@@ -39,10 +39,10 @@ def max_min_candy():
 def which_more_popular():
     if average_sales_cookies() > average_sales_candy():
         print("Cookies are more popular these days.")
-    elif average_sales_cookies() < average_sales_candy():
+    else: 
+        average_sales_cookies() < average_sales_candy():
         print("Candies are more popular these days.")
-    else:
-        print("...")
+# Ben Lizza: this is the only thing that I would change in your code because it uses one less command. 
 
 # Function that start a program
 def start():
@@ -66,3 +66,5 @@ print(f"""          Months        Cookies      Candy
         |Month 6|        |{Cookies[5]}|        |{Candy[5]}|
         ------------------------------------
 """)
+# Ben Lizza- You probably know this but the table didn't have to be in this, but I like it
+# Ben Lizza- Your code is very similar to mine and honestly I wouldn't change much in it
